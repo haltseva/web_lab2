@@ -1,0 +1,139 @@
+body{
+	font-family: Tahoma;
+}
+header{
+	
+	width: 100%;
+	height: 200px;
+}
+table{
+	text-align: center;
+	margin: 0 10px;
+	padding: 0;
+}
+
+.container{
+	margin: 5px 200px; 
+}
+
+.h_col1_1 {
+
+	width: 50%;
+	float: left;
+}
+.h_col1_2 {
+	width: 50%;
+	text-align: right;
+	float: right;
+}
+.h_col2_1{
+	width: 33.3334%;
+	float: left;
+}
+.h_col2_2{
+	width: 33.3333%;
+	text-align: center;
+	float: left;
+}
+.h_col2_3{
+	width: 33.3333%;
+	height: 100px;
+	text-align: right;
+	float: left;
+}
+.h_col2_3  input{
+ 
+  background: #000000;
+  outline: none;
+  position: relative;
+ 
+}
+
+.pink{
+	color: #FD03A6
+}
+nav ul {
+	
+  margin: 0 -65px ;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 0 63px;
+}
+
+}
+main{
+	font-family: Tahoma;
+}
+.popular{
+	margin: 5px 300px; 
+ 	text-align: center; 
+ 	font-family: Tahoma;
+ 	height: 300px;
+	
+}
+figure{
+	padding: 10px; 
+    display: block; 
+    float: left; 
+    margin: 0 25px; 
+}
+
+a:link{
+color: #FFFFFF;
+}
+a:active{
+	color: #FFFFFF;
+}
+a:visited{
+	color: #FFFFFF ;
+}
+a:hoover{
+	color: #FD03A6 ;
+}   
+.text{
+	background-color: #000000;
+	color:  #FFFFFF ;
+	margin-top: 100px;
+}
+section{
+	clear: both; 
+	margin: 0 200px;
+}
+.black{
+	background-color: #000000;
+	color: white;
+}
+
+.foot-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+}
+
+.nav_foot{
+	font-size: 10px;
+}
+
+.foot1{
+	width: 50%;	
+}
+.foot2{
+	width: 50%;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.foot-list {
+	list-style-type: none;
+}
+
+.foot-list a {
+	text-decoration: none;
+}
+
+.foot-list li {
+	padding: 10px 0;
+}
